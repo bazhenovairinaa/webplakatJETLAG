@@ -1,0 +1,287 @@
+.blackbox {
+  position: absolute;
+  width: 100vw;
+  height: 17.5vw;
+  margin-top: 37vw;
+  background-color: black;
+}
+.thirdblock > span {
+  position: absolute;
+}
+
+.euphoria {
+  color: white;
+  animation: euphoria 7s ease-in-out infinite;
+}
+
+@keyframes euphoria {
+  0% {
+    width: 1vw;
+    left: 13vw;
+    top: 101vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 1vw;
+    left: 13vw;
+    top: 101vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 1vw;
+    left: 13vw;
+    top: 101vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.adaptation {
+  color: white;
+  animation: adaptation 5s ease-in-out infinite;
+}
+
+@keyframes adaptation {
+  0% {
+    width: 1vw;
+    left: 28vw;
+    top: 96vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 1vw;
+    left: 28vw;
+    top: 96vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 1vw;
+    left: 28vw;
+    top: 96vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.dysphoria {
+  color: white;
+  animation: dysphoria 6s ease-in-out infinite;
+}
+
+@keyframes dysphoria {
+  0% {
+    width: 1vw;
+    left: 53vw;
+    top: 99vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 1vw;
+    left: 53vw;
+    top: 99vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 1vw;
+    left: 53vw;
+    top: 99vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.acclimatization {
+  color: white;
+  animation: acclimatization 7s ease-in-out infinite;
+}
+
+@keyframes acclimatization {
+  0% {
+    width: 1vw;
+    left: 71vw;
+    top: 94vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 1vw;
+    left: 71vw;
+    top: 94vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 1vw;
+    left: 71vw;
+    top: 94vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.intergration {
+  color: white;
+  animation: intergration 7s ease-in-out infinite;
+}
+
+@keyframes intergration {
+  0% {
+    width: 1vw;
+    left: 89vw;
+    top: 105vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 1vw;
+    left: 89vw;
+    top: 105vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 1vw;
+    left: 89vw;
+    top: 105vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .euphoria {
+    font-size: 2vw;
+  }
+
+  .adaptation,
+  .dysphoria,
+  .acclimatization,
+  .intergration {
+    font-size: 2vw;
+  }
+  
+  @keyframes euphoria {
+      0% {
+        width: 1vw;
+        left: 11vw;
+        top: 175vw;
+        filter: blur(6px);
+        opacity: 0;
+      }
+      50% {
+        left: 11vw;
+        top: 175vw;
+        filter: blur(0);
+        opacity: 100%;
+      }
+      100% {
+        width: 1vw;
+        left: 11vw;
+        top: 175vw;
+        filter: blur(22px);
+        opacity: 0;
+      }
+  }
+
+  @keyframes adaptation {
+    0% {
+      width: 1vw;
+      left: 28vw;
+      top: 170vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 1vw;
+      left: 28vw;
+      top: 170vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 1vw;
+      left: 28vw;
+      top: 170vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes dysphoria {
+    0% {
+      width: 1vw;
+      left: 51vw;
+      top: 174vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 1vw;
+      left: 51vw;
+      top: 174vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 1vw;
+      left: 51vw;
+      top: 174vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes acclimatization {
+    0% {
+      width: 1vw;
+      left: 69vw;
+      top: 170vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 1vw;
+      left: 69vw;
+      top: 170vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 1vw;
+      left: 69vw;
+      top: 170vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes intergration {
+    0% {
+      width: 1vw;
+      left: 85vw;
+      top: 180vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 1vw;
+      left: 85vw;
+      top: 180vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 1vw;
+      left: 85vw;
+      top: 180vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+}

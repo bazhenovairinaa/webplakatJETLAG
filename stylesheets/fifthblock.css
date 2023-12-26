@@ -1,0 +1,698 @@
+.line-wrapper2 {
+  position: relative;
+  gap: 2vw;
+  animation: linetwo 4s linear infinite;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-wrapper2:hover {
+  animation-play-state: paused;
+}
+
+.linetwo {
+  margin-top: 0.5vw;
+  height: 2vw;
+  color: white;
+  min-width: fit-content;
+}
+
+.line2 {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  background: black;
+  margin-top: 81vw;
+}
+
+@keyframes linetwo {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-99vw);
+  }
+}
+
+.line2::after {
+  position: absolute;
+  top: 99%;
+  width: 100%;
+  height: 50vw;
+  content: "";
+  background: black;
+}
+
+.firstplanet1 {
+  position: absolute;
+  width: 40vw;
+  margin-top: 90vw;
+  margin-left: 2.8vw;
+  animation: rotate-right 7s linear infinite;
+  z-index: 2;
+}
+
+.firstplanet2 {
+  position: absolute;
+  width: 34vw;
+  margin-top: 93vw;
+  margin-left: 4vw;
+  animation: rotate-left 7s linear infinite;
+  z-index: 2;
+}
+
+.firstplanet3 {
+  position: absolute;
+  width: 30vw;
+  margin-top: 95vw;
+  margin-left: 3.9vw;
+  animation: rotate-right 7s linear infinite;
+  z-index: 2;
+}
+
+.firstplanet4 {
+  position: absolute;
+  width: 24vw;
+  margin-top: 97vw;
+  margin-left: 4vw;
+  animation: rotate-left 7s linear infinite;
+  z-index: 2;
+}
+
+.firstplanet5 {
+  position: absolute;
+  width: 17vw;
+  margin-top: 99vw;
+  margin-left: 4vw;
+  animation: rotate-right 7s linear infinite;
+  z-index: 2;
+}
+
+.secondplanet1 {
+  position: absolute;
+  width: 55vw;
+  margin-top: 110vw;
+  margin-left: 54vw;
+  animation: rotate-left 7s linear infinite;
+}
+
+.secondplanet2 {
+  position: absolute;
+  width: 43vw;
+  margin-top: 119vw;
+  margin-left: 62vw;
+  animation: rotate-right 7s linear infinite;
+}
+
+.secondplanet3 {
+  position: absolute;
+  width: 36vw;
+  margin-top: 125vw;
+  margin-left: 66vw;
+  animation: rotate-left 7s linear infinite;
+}
+
+.secondplanet4 {
+  position: absolute;
+  width: 28vw;
+  margin-top: 131vw;
+  margin-left: 71vw;
+  animation: rotate-right 7s linear infinite;
+}
+
+.secondplanet5 {
+  position: absolute;
+  width: 22vw;
+  margin-top: 136vw;
+  margin-left: 75vw;
+  animation: rotate-left 7s linear infinite;
+}
+
+.thirdplanet1 {
+  position: absolute;
+  width: 55vw;
+  margin-top: 150vw;
+  margin-left: -5vw;
+  animation: rotate-right 7s linear infinite;
+  z-index: 1;
+}
+
+.thirdplanet2 {
+  position: absolute;
+  width: 43vw;
+  margin-top: 152vw;
+  margin-left: 2vw;
+  animation: rotate-left 7s linear infinite;
+  z-index: 1;
+}
+
+.thirdplanet3 {
+  position: absolute;
+  width: 36vw;
+  margin-top: 153vw;
+  margin-left: 7vw;
+  animation: rotate-right 7s linear infinite;
+  z-index: 1;
+}
+
+.thirdplanet4 {
+  position: absolute;
+  width: 28vw;
+  margin-top: 154vw;
+  margin-left: 12vw;
+  animation: rotate-left 7s linear infinite;
+  z-index: 1;
+}
+
+.thirdplanet5 {
+  position: absolute;
+  width: 22vw;
+  margin-top: 155vw;
+  margin-left: 16vw;
+  animation: rotate-right 7s linear infinite;
+  z-index: 1;
+}
+
+.stroke1 {
+  position: absolute;
+  margin-top: 85vw;
+  margin-left: 20vw;
+  width: 100%;
+  z-index: 1;
+}
+
+.stroke2 {
+  position: absolute;
+  width: 100%;
+  margin-top: 185vw;
+}
+
+.stroke3 {
+  position: absolute;
+  width: 100%;
+  margin-top: 196vw;
+  margin-left: 16vw;
+}
+
+/* @keyframes rotate-right {
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-left {
+  from {
+    transform: rotate(-360deg);
+  }
+} */
+
+.ellipse3 {
+  position: absolute;
+  animation: ellipse3 7s ease-in-out infinite;
+}
+
+@keyframes ellipse3 {
+  0% {
+    width: 7vw;
+    margin-top: 172vw;
+    margin-left: 61vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 7vw;
+    margin-top: 172vw;
+    margin-left: 60vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 7vw;
+    margin-top: 172vw;
+    margin-left: 61vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.ellipse4 {
+  position: absolute;
+  animation: ellipse4 10s ease-in-out infinite;
+}
+
+@keyframes ellipse4 {
+  0% {
+    width: 15vw;
+    margin-top: 202vw;
+    margin-left: 29vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 15vw;
+    margin-top: 202vw;
+    margin-left: 25vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 15vw;
+    margin-top: 202vw;
+    margin-left: 29vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.ellipse5 {
+  position: absolute;
+  animation: ellipse5 10s ease-in-out infinite;
+}
+
+@keyframes ellipse5 {
+  0% {
+    width: 15vw;
+    margin-top: 92vw;
+    margin-left: 90vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 15vw;
+    margin-top: 92vw;
+    margin-left: 87vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 15vw;
+    margin-top: 92vw;
+    margin-left: 90vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.waves2 {
+  position: absolute;
+  animation: waves2 5s ease-in-out infinite;
+}
+
+@keyframes waves2 {
+  0% {
+    width: 34vw;
+    margin-top: 140vw;
+    margin-left: 31vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 34vw;
+    margin-top: 140vw;
+    margin-left: 31vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 34vw;
+    margin-top: 140vw;
+    margin-left: 31vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.spiral4 {
+  position: absolute;
+  animation: spiral4 7s ease-in-out infinite;
+}
+
+@keyframes spiral4 {
+  0% {
+    width: 13vw;
+    top: 216vw;
+    left: 78vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 13vw;
+    top: 216vw;
+    left: 78vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 13vw;
+    top: 216vw;
+    left: 78vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star4 {
+  position: absolute;
+  animation: star4 7s ease-in-out infinite;
+}
+
+@keyframes star4 {
+  0% {
+    width: 5vw;
+    margin-top: 210vw;
+    margin-left: 40vw;
+    transform: rotate(300deg);
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 7vw;
+    margin-top: 210vw;
+    margin-left: 40vw;
+    transform: rotate(200deg);
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 5vw;
+    margin-top: 210vw;
+    margin-left: 40vw;
+    transform: rotate(326deg);
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star2 {
+  position: absolute;
+  animation: star2 5s ease-in-out infinite;
+}
+
+@keyframes star2 {
+  0% {
+    width: 5vw;
+    margin-top: 120vw;
+    margin-left: 36vw;
+    transform: rotate(400deg);
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 7vw;
+    margin-top: 120vw;
+    margin-left: 36vw;
+    transform: rotate(300deg);
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 5vw;
+    margin-top: 120vw;
+    margin-left: 36vw;
+    transform: rotate(4000deg);
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.star3 {
+  position: absolute;
+  animation: star3 7s ease-in-out infinite;
+}
+
+@keyframes star3 {
+  0% {
+    width: 5vw;
+    margin-top: 104vw;
+    margin-left: 60vw;
+    transform: rotate(400deg);
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 7vw;
+    margin-top: 100vw;
+    margin-left: 60vw;
+    transform: rotate(300deg);
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 5vw;
+    margin-top: 104vw;
+    margin-left: 60vw;
+    transform: rotate(4000deg);
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.hselogo {
+  position: absolute;
+  width: 10vw;
+  right: 7vw;
+  top: 275vw;
+}
+
+.myname {
+  position: absolute;
+  font-size: 1vw;
+  right: 9.7vw;
+  top: 280vw;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .line2::after {
+    position: absolute;
+    top: 99%;
+    width: 100%;
+    height: 83vw;
+    content: "";
+    background: black;
+  }
+
+  .firstplanet1 {
+    width: 50vw;
+    margin-left: 4.8vw;
+  }
+
+  .firstplanet2 {
+    width: 42vw;
+    margin-left: 6vw;
+  }
+
+  .firstplanet3 {
+    width: 34vw;
+    margin-top: 97vw;
+    margin-left: 7.9vw;
+  }
+
+  .firstplanet4 {
+    width: 29vw;
+    margin-top: 99vw;
+    margin-left: 7vw;
+  }
+
+  .firstplanet5 {
+    width: 22vw;
+    margin-top: 103vw;
+    margin-left: 6vw;
+  }
+
+  .secondplanet1 {
+    width: 65vw;
+    margin-top: 125vw;
+    margin-left: 42vw;
+  }
+  .secondplanet2 {
+    width: 51vw;
+    margin-top: 136vw;
+    margin-left: 50vw;
+  }
+  .secondplanet3 {
+    width: 45vw;
+    margin-top: 142vw;
+    margin-left: 54vw;
+  }
+  .secondplanet4 {
+    width: 38vw;
+    margin-top: 147vw;
+    margin-left: 58vw;
+  }
+  .secondplanet5 {
+    width: 32vw;
+    margin-top: 152vw;
+    margin-left: 62vw;
+  }
+
+  .thirdplanet1 {
+    width: 65vw;
+    margin-top: 164vw;
+    margin-left: -5vw;
+  }
+  .thirdplanet2 {
+    width: 57vw;
+    margin-top: 165vw;
+    margin-left: 0vw;
+  }
+  .thirdplanet3 {
+    width: 46vw;
+    margin-top: 167vw;
+    margin-left: 7vw;
+  }
+  .thirdplanet4 {
+    width: 36vw;
+    margin-top: 168vw;
+    margin-left: 13vw;
+  }
+  .thirdplanet5 {
+    width: 29vw;
+    margin-top: 169vw;
+    margin-left: 17vw;
+  }
+
+  @keyframes spiral4 {
+    0% {
+      width: 13vw;
+      top: 315vw;
+      left: 88vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 13vw;
+      top: 315vw;
+      left: 88vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 13vw;
+      top: 315vw;
+      left: 88vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes star2 {
+    0% {
+      width: 5vw;
+      margin-top: 145vw;
+      margin-left: 36vw;
+      transform: rotate(400deg);
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 7vw;
+      margin-top: 145vw;
+      margin-left: 36vw;
+      transform: rotate(300deg);
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 5vw;
+      margin-top: 145vw;
+      margin-left: 36vw;
+      transform: rotate(4000deg);
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes waves2 {
+    0% {
+      width: 54vw;
+      margin-top: 155vw;
+      margin-left: 0vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 54vw;
+      margin-top: 155vw;
+      margin-left: 0vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 54vw;
+      margin-top: 155vw;
+      margin-left: 0vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes ellipse3 {
+    0% {
+      width: 7vw;
+      margin-top: 210vw;
+      margin-left: 61vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 7vw;
+      margin-top: 210vw;
+      margin-left: 60vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 7vw;
+      margin-top: 210vw;
+      margin-left: 61vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes star4 {
+    0% {
+      width: 5vw;
+      margin-top: 240vw;
+      margin-left: 40vw;
+      transform: rotate(300deg);
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      width: 7vw;
+      margin-top: 240vw;
+      margin-left: 40vw;
+      transform: rotate(200deg);
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      width: 5vw;
+      margin-top: 240vw;
+      margin-left: 40vw;
+      transform: rotate(326deg);
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  .stroke2 {
+    margin-top: 217vw;
+  }
+
+  .stroke3 {
+    width: 110%;
+    margin-top: 225vw;
+    margin-left: 0;
+  }
+
+  .hselogo {
+    top: 382vw;
+  }
+
+  .myname {
+    top: 387vw;
+  }
+}

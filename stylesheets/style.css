@@ -1,0 +1,7 @@
+@import "reset.css"; /* сбрoc настроек браузера */
+@import "main.css"; /* контент / содержимое  */
+@import "firstblock.css";
+@import "secondblock.css";
+@import "thirdblock.css";
+@import "fourthblock.css";
+@import "fifthblock.css";

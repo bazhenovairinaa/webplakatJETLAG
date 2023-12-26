@@ -1,0 +1,285 @@
+.circle1 {
+  position: absolute;
+  animation: circle1 5s ease-in-out infinite;
+}
+
+@keyframes circle1 {
+  0% {
+    width: 28vw;
+    margin-top: 47vw;
+    margin-left: 72vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 28vw;
+    margin-top: 47vw;
+    margin-left: 72vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 28vw;
+    margin-top: 47vw;
+    margin-left: 72vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.circle2 {
+  position: absolute;
+  animation: circle2 7s ease-in-out infinite;
+}
+
+@keyframes circle2 {
+  0% {
+    width: 38vw;
+    margin-top: 47.5vw;
+    margin-left: 49vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 38vw;
+    margin-top: 47.5vw;
+    margin-left: 49vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 38vw;
+    margin-top: 47.5vw;
+    margin-left: 49vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.circle3 {
+  position: absolute;
+  animation: circle3 5s ease-in-out infinite;
+}
+
+@keyframes circle3 {
+  0% {
+    width: 23vw;
+    margin-top: 47vw;
+    margin-left: 41vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 23vw;
+    margin-top: 47vw;
+    margin-left: 41vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 23vw;
+    margin-top: 47vw;
+    margin-left: 41vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.circle4 {
+  position: absolute;
+  animation: circle4 7s ease-in-out infinite;
+}
+
+@keyframes circle4 {
+  0% {
+    width: 15.04vw;
+    margin-top: 46.5vw;
+    margin-left: 30vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 15.04vw;
+    margin-top: 46.5vw;
+    margin-left: 30vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 15.04vw;
+    margin-top: 46.5vw;
+    margin-left: 30vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.spiral3 {
+  position: absolute;
+  animation: spiral3 5s ease-in-out infinite;
+}
+
+@keyframes spiral3 {
+  0% {
+    width: 16vw;
+    margin-top: 46vw;
+    margin-left: 17vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 16vw;
+    margin-top: 46vw;
+    margin-left: 17vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 16vw;
+    margin-top: 46vw;
+    margin-left: 17vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.lotsofeyes {
+  position: absolute;
+  animation: lotofeyes 7s ease-in-out infinite;
+}
+
+@keyframes lotofeyes {
+  0% {
+    width: 35vw;
+    margin-top: 51vw;
+    margin-left: 4vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    width: 35vw;
+    margin-top: 51vw;
+    margin-left: 4vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    width: 35vw;
+    margin-top: 51vw;
+    margin-left: 4vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.wrapper-eyes {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  animation: wrapper-eyes 5s ease-in-out infinite;
+}
+
+@keyframes wrapper-eyes {
+  0% {
+    top: 122vw;
+    left: 37vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    top: 122vw;
+    left: 37vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    top: 122vw;
+    left: 37vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.wrapper-bottom {
+  animation: wrapper-bottom 5s ease-in-out infinite;
+}
+
+@keyframes wrapper-bottom {
+  0% {
+    top: 110vw;
+    left: 37vw;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  50% {
+    top: 110vw;
+    left: 37vw;
+    filter: blur(0);
+    opacity: 100%;
+  }
+  100% {
+    top: 110vw;
+    left: 37vw;
+    filter: blur(22px);
+    opacity: 0;
+  }
+}
+
+.wrapper-eyes > span {
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+}
+
+.stroke {
+  border: 0.1em solid #e85b11;
+}
+
+.outline {
+  background-color: #e85b11;
+}
+
+@media (max-width: 767px) {
+  @keyframes wrapper-eyes {
+    0% {
+      top: 185vw;
+      left: 37vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      top: 185vw;
+      left: 37vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      top: 185vw;
+      left: 37vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes wrapper-bottom {
+    0% {
+      top: 198vw;
+      left: 37vw;
+      filter: blur(6px);
+      opacity: 0;
+    }
+    50% {
+      top: 198vw;
+      left: 37vw;
+      filter: blur(0);
+      opacity: 100%;
+    }
+    100% {
+      top: 198vw;
+      left: 37vw;
+      filter: blur(22px);
+      opacity: 0;
+    }
+  }
+}

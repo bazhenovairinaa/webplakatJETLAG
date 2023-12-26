@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "proxima_nova_bold";
+  src: url(../font/proxima_nova_bold.woff) format(truetype);
+  font-style: bold;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: proxima nova;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+span {
+  font-family: proxima nova;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.side-line {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 3vw;
+  height: 100%;
+  background-color: #e85b11;
+}
+
+.side-line > div.line-wrapper {
+  flex-direction: column;
+  animation: side-eyes 8s linear infinite;
+  animation-play-state: running;
+}
+
+.side-line > div.line-wrapper > img {
+  width: 2vw;
+  margin-left: 0.5vw;
+}
+
+@keyframes side-eyes {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-45%);
+  }
+}
+
+@media (max-width: 767px) {
+  span {
+    font-size: 3vw;
+  }
+}
