@@ -1,6 +1,6 @@
 @font-face {
   font-family: "proxima_nova_bold";
-  src: url(../font/proxima_nova_bold.woff) format(truetype);
+  src: url("../font/proxima_nova_bold.woff") format("truetype");
   font-style: bold;
   font-weight: bold;
 }
