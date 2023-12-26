@@ -12,9 +12,18 @@ html,
 body {
   width: 100vw;
   max-width: 100%;
-  overflow-x: hidden;
   font-family: proxima-nova-bold;
   font-size: 1.5vw;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  height: 100svh;
 }
 
 span {
