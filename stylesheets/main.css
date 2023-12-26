@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "proxima_nova_bold";
-  src: url("../font/proxima_nova_bold.woff") format("truetype");
+  font-family: "proxima-nova-bold";
+  src: url("../font/proxima-nova-bold.ttf") format("truetype");
   font-style: bold;
   font-weight: bold;
 }
@@ -13,15 +13,13 @@ body {
   width: 100vw;
   max-width: 100%;
   overflow-x: hidden;
-  font-family: proxima nova;
-  font-weight: bold;
+  font-family: proxima-nova-bold;
   font-size: 1.5vw;
 }
 
 span {
-  font-family: proxima nova;
+  font-family: proxima-nova-bold;
   font-size: 1vw;
-  font-weight: bold;
 }
 
 .side-line {
